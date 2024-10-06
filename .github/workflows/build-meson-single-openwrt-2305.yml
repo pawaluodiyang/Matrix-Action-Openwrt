@@ -28,14 +28,14 @@ on:
       MACH:
         description: 'Choose machine'
         required: true
-        default: 'ws1508'
+        default: 'onecloud'
         type: choice
         options:
         - 'ws1508'
         - 'onecloud'
       SETIP:
         description: 'Set ip address'
-        default: '192.168.66.1'
+        default: '10.10.10.253'
         required: false
         type: choice
         options:
